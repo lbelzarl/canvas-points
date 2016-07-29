@@ -1,0 +1,44 @@
+.canvas {
+    border: 1px solid #000;
+}
+
+.colors {
+    width: 500px;
+    text-align: center;
+}
+
+.color {
+    display: inline-block;
+    margin: 0 10px;
+
+    width: 30px;
+    height: 30px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.color_black {
+    background-color: #000;
+}
+.color_blue {
+    background-color: #0082dd;
+}
+.color_green {
+    background-color: #81ab00;
+}
+.color_red {
+    background-color: #f36161;
+}
+.color_cyan {
+    background-color: #1edae1;
+}
+
+.color:hover {
+    border-color: #ccc;
+}
+.color_active,
+.color_active:hover {
+    border-color: #ffdb4d;
+}
